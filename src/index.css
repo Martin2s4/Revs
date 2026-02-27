@@ -6,6 +6,19 @@
   body {
     @apply bg-gray-50 text-gray-900 dark:bg-gray-950 dark:text-gray-100 antialiased;
   }
+
+  button,
+  a,
+  input[type="button"],
+  input[type="submit"],
+  input[type="reset"],
+  [role="button"],
+  [role="link"],
+  select,
+  textarea,
+  label {
+    @apply cursor-pointer;
+  }
 }
 
 @layer utilities {
